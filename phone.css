@@ -1,0 +1,33 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.logo img {
+    width: 155px;
+    height: 60px;
+    position: relative;
+    
+}
+
+.nav-main ul {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+    align-items: baseline;
+    top: 70px;
+}
+.nav-main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:20vh;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
